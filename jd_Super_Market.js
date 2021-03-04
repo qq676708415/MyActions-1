@@ -839,7 +839,7 @@ function smtg_sellMerchandise(body) {
   })
 }
 //新版东东超市
-function updatePkActivityId(url = 'https://raw.githubusercontent.com/shuye73/updateSupermarketTeam/master/jd_updateTeam.json') {
+function updatePkActivityId(url = 'https://gitee.com/Soundantony/updateTeam/raw/master/shareCodes/jd_updateTeam.json') {
   return new Promise(resolve => {
     $.get({url}, async (err, resp, data) => {
       try {
